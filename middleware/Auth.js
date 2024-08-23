@@ -3,11 +3,11 @@ const User = require("../modal/User");
 
 // Middleware for authorization
 const authorizeUser = async (req, res, next) => {
-  console.log("req.headers", req.headers);  
-  
+  console.log("req.headers", req.headers);
+
   try {
     // Get token from header
-    let token = req.headers.Authorization;
+    let token = req.headers.authorization;
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     const user = await User.findById(decoded.userId);
 

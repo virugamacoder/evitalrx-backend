@@ -4,6 +4,17 @@ const User = require("../modal/User");
 const moment = require("moment");
 const SendMail = require("../utils/SendMail");
 
+/*
+API Response Structure
+
+{
+  message: "Message",
+  data: { data }
+}
+
+this structure is used to send response to the client
+*/
+
 // Without Otp API
 exports.signup = async (req, res) => {
   console.log("Signup api");

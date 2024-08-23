@@ -24,9 +24,8 @@ This backend application provides API endpoints for user authentication and mana
 
 The backend is live on Render.
 
-## postman 
-
-[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/21900132-10ef892e-00c9-44e2-bfa6-cb1b43a25f7b?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D21900132-10ef892e-00c9-44e2-bfa6-cb1b43a25f7b%26entityType%3Dcollection%26workspaceId%3D827b5173-c3e4-472f-a280-d04b0d6482a3)
+## Postman 
+Link : https://www.postman.com/galactic-comet-839856/workspace/evitalrx-krunalvirugama
 
 ## Installation & Running the Application
 
